@@ -31,8 +31,8 @@ console.log(count);
 
 //ARRAY
 
-let arr=["Paras","Dinesh","Waghela"];
-console.log(arr[2]);
+let arr1=["Paras","Dinesh","Waghela"];
+console.log(arr1[2]);
 const ages=[9,2,3,4,5,6];
 
 //EVEN NUMS
@@ -88,7 +88,7 @@ const user1={
 
 console.log(user1["firstName"]);
 
-infinite nesting of objects
+// infinite nesting of objects
 const alluser=[{
   firstName:"Paras",
     gender:"male"
