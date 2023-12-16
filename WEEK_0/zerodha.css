@@ -95,6 +95,7 @@
     font-weight: 510;
     border-radius: 3px;
     transition: 0.1s;
+    cursor: pointer;
 }
 
 .btn:hover{
