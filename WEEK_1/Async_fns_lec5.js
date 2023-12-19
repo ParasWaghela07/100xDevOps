@@ -88,6 +88,24 @@ var x=ParasReadFile();
 x.then(onDone);
 
 
+/////////////////////// ASYNC , AWAIT 
+
+function para(){
+    let p=new Promise(function(resolve){
+        //do some asyn logic here
+        resolve("hi there");
+    });
+    return p;
+}
+
+async function main(){
+    const value=await para();
+    console.log(value);
+}
+
+main();
+
+
 
 
 
